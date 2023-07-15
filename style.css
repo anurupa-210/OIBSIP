@@ -1,68 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
 body{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+  padding: 80px;
+  font-family: Times New Roman;
+  font-size:  18px;
+  
 }
-.calc
+.container{
+  background-color:lightyellow;
+  padding: 10px;
+  border :  5px solid rgb(165, 42, 138);
+}
+#head1{
+  padding-top:50px;
+}
+.text-center
 {
-    margin: 10px 0;
-    width:20px;
+  font-size: 100px;
 }
-.calculator{
-    border: 1px solid #717377;
-    padding: 20px;
-    border-radius: 16px;
-    background: transparent;
-    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
-
+.text-center1
+{
+  font-size: 80px;
 }
-
-input{
-    width: 320px;
-    border: none;
-    padding: 24px;
-    margin: 10px;
-    background: transparent;
-    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
-    font-size: 40px;
-    text-align: right;
-    cursor: pointer;
-    color: #ffffff;
+.text-edit{
+  font-family:Verdena;
+  font-size:20px;
 }
-
-input::placeholder{
-    color: #ffffff;
+.img-edit{
+  align-items: center;
 }
-
-button{
-    border: none;
-    width: 60px;
-    height: 60px;
-    margin: 10px;
-    border-radius: 50%;
-    background: transparent;
-    color: #ffffff;
-    font-size: 20px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
-    cursor: pointer;
+li{
+  font-size: 50px;
 }
-
-.equalBtn{
-    background-color: #fb7c14;
+.col-md-12
+{
+  font-size: 30px;
 }
-
-.operator{
-    color: #6dee0a;
+.img1
+{
+  size: 20px;
 }
